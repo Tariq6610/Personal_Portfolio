@@ -1,0 +1,7 @@
+.heading{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: clamp(40px, 5vw + 1rem, 60px)
+  }

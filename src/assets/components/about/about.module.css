@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+.heading{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: clamp(40px, 5vw + 1rem, 60px)
+}
+
+.paragraph{
+    width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    /* position: relative; */
+    /* left: 3rem; */
+    /* background : linear-gradient(to right, #fac37b, transparent); */
+}
+
+.paragraph ::before{
+    content: "";
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: -2.75rem;
+    top: 0.8rem;
+}
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.skills{
+  width: 60%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.skills ::before{
+  content: "";
+  background-color: black;
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  left: -2.75rem;
+  top: 1.5rem;
+}
+
+.badge{
+  display: inline-block;
+  padding: 5px 11px;
+  background: -webkit-linear-gradient(to right, #fac37b, transparent);
+  background: -moz-linear-gradient(to right, #fac37b, transparent);
+  background: -o-linear-gradient(to right, #fac37b, transparent);
+  background: linear-gradient(to right, #fac37b, transparent);   
+  border-radius: 40px;
+  margin: 5px;
+}
+
+
+

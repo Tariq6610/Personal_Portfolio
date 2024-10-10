@@ -1,0 +1,9 @@
+div.mobile-nav{
+    position: fixed;
+    top: -500px;
+    transition: top ease-in-out 500ms;
+}
+
+div.show-nave{
+    top: 0px;
+}
