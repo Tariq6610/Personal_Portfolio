@@ -2,7 +2,7 @@
 function ContactMe() {
   return (
     <>
-    <div className="flex h-screen relative bg-gray-100 justify-center items-center overflow-x-hidden">
+    <div className="flex h-screen relative bg-slate-200 justify-center items-center overflow-x-hidden">
         <div className="w-[300px] z-20 px-10 absolute right-0 top-20 lg:right-auto lg:top-auto md:right-auto lg:left-80  h-[300px] bg-gray-200 border-b-4  border-orange-500">
         <h1 className="relative left-[-80px] flex top-14 text-3xl font-bold">Contact <span className="font-bold bg-[linear-gradient(to_right,_#fac37b,_transparent)]">
            Me

@@ -2,13 +2,14 @@ import styles from "./about.module.css"
 
 function About() {
   return (
-    <div className='lg:h-screen flex w-screen flex-wrap justify-center overflow-hidden'>
-        <div className='lg:w-[500px] w-screen relative bg-slate-500 flex justify-center md:items-start items-end'>
-         <div className='w-72 mt-52 border-8'>
-          <img src="/profile.jpg" alt="" />
+    <div className='bg-slate-300 -z-20 lg:h-screen px-[30px] flex w-screen flex-wrap justify-center overflow-hidden'>
+        <div className='lg:w-[500px] w-screen relative  flex justify-center md:items-start items-end'>
+         <div className='w-72 mt-52 border-8 '>
+          <img className="z-20 relative" src="/profile.jpg" alt="" />
+         <div className="absolute z-10 right-[100px]  lg:right-0 h-[90%] top-[5%] w-[300px] bg-white  box-border border-b-red-300  border-b-8"></div>
          </div>
         </div>
-        <div className='lg:w-[700px]  w-screen bg-gray-400 flex  md:items-center '>
+        <div className='lg:w-[700px]  w-screen  flex  md:items-center '>
          <div className="md:ms-20 px-4 md:px-0 md:w-2/3 mt-8">
         <h1 className={`${styles.heading} font`} >About <span className="font-bold bg-[linear-gradient(to_right,_#fac37b,_transparent)]">
            Me
@@ -22,6 +23,7 @@ function About() {
         <button className="px-3 py-2 bg-black text-white rounded ms-14 mt-6">Contact Me</button>
          </div>
         </div>
+        
     </div>
   )
 }
